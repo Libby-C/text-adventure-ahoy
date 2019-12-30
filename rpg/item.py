@@ -23,4 +23,4 @@ class Item:
         return self.description
 
     def describe(self):
-        print("A %s. \n%s \nIt is worth %d gold." % (self.name, self.description, self.value))
+        print("There is %s \nIt is worth %d gold." % (self.description, self.value))
